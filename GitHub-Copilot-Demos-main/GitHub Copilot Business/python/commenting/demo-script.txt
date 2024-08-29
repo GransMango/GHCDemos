@@ -1,0 +1,11 @@
+app.py
+	This Python file is made to demonstrate inline comments from GHCfB. 
+	This is an example of the demo transcript.
+	Demo:
+		1. Show the code and give an introduction to the user and task classes.
+		2. Explain we're adding new endpoints for CRUD operations on the tasks belonging to a user.
+		3. Go to the Todo comments, press enter and GitHub Copilot should come up with a suggestion.
+		4. Showcase that the comments work in Norwegian as well, if that seems relevant.
+		5. Use the GitHub Copilot chat with the "/explain" command to explain the PUT method.
+		6. Lastly you can showcase that the copilot also works without comments.
+		This can be done by creating new users where the "alternatively add more users" is written.		

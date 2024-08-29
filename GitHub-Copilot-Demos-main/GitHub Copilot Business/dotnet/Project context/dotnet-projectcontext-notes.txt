@@ -1,0 +1,21 @@
+C# - VSCode 
+	This project is taken from (https://github.com/gh-msft-innersource/CopilotPlayground/tree/main/FollowStandards)
+	It's meant to demonstrate that GitHub Copilot follows coding standards in a project.
+    By following the steps marked with an * the project can also be used to show IDE pull request generation and commit message generation.
+    The project is best showcased in Visual Studio or VSCode.
+
+	Demo:
+    * If also showcasing Git functionality, make sure to have created a new branch where you write the changes.
+    1. Open StoreProxy.cs and explain that we're gonna write the GetOrder method.
+	2. Add a comment to the GetOrder method "// handle the response"
+    3. Showcase the suggestions GitHub Copilot makes, which are pretty simple.
+	4. Explain a bit about the GitHub Copilot's context, especially regarding open windows.
+	5. Open up PetProxy.cs
+	6. Delete the code you got from step 2 and rewrite the "// handle the response" comment.
+	7. Show that the suggestions made now takes the coding standards set in PetProxy into context.
+	*8. Commit the change, use GitHub Copilot to generate the commit message.
+	9. Talk about handling of negative id's in the getorder method.
+    10. Showcase TestStoreProxy and it's existing tests for negative id.
+    11. Open up the StoreProxy file and write "// Handle negative id" at the top of the method.
+    *12. Commit the generated code and make GitHub copilot generate the commit message.
+	*13. Open a Pull Request and have GitHub copilot generate a summary of the changes made.

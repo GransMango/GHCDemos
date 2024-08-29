@@ -1,0 +1,17 @@
+Kotlin (Daniel) - IntelliJ
+	This Kotlin function is a simple calculator which can add, subtract, divide and multiply.
+	Here is how a demo transcript may look.
+    Demo:
+	    1. Showcase the calculator class.
+        2. Open the GitHub Copilot chat and ask the following prompt:
+	PROMPT: /tests create 2 tests for each function
+        3. Insert the code that the chat responds with, and follow up with the following prompt:
+	PROMPT:  can you add 3 more tests for the divide function?
+        4. Show the answer and insert this code as well. 
+        In some cases it might write the entire class and not just the tests, in that case paste it over the existing class.
+        5. Now we can follow up with some edge case testing by using the following prompt:
+	PROMPT: are there any cases that are not tested for the divide function?
+	    6. Add this to the class as you did in step 4.
+        7. Finally you may ask the GitHub Copilot chat if all test cases are covered.
+	PROMPT: how about now, are we fully covered?
+        8. Show the answer.

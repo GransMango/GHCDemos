@@ -1,0 +1,19 @@
+Terraform - VSCode
+    This demo is used to showcase GitHub Copilot chat, and it's context awareness in the workspace.
+    We'll use @workspace to show the workspace context function.
+
+    *** NOTE THAT THIS ASSUMES YOU HAVE INSERTED MODULES INTO THE "modules" FOLDER.
+    THE CURRENT FILES IN THE FOLDER ARE MEANT TO REPRESENT A COMPANIES MODULES.
+    If you can't find Terraform modules for the company on their GitHub, consider changing the name of the folders
+    and the README.md file to your customer name, instead of placeholder ***
+
+    Keep the main.tf file open throughout the demo.
+	Demo:
+        1. Start with asking the following prompts in the GitHub Copilot chat:
+	PROMPT: How can I create a windows web app in Azure with terraform?
+	PROMPT: @workspace Do we have existing modules for creating a windows web app in Azure with terraform?
+	PROMPT: @workspace How do I use that module?
+        2. After getting the code we insert it into the main.tf file, and follow up with test generation:
+	PROMPT: are there any ways to test terraform code?
+	PROMPT: can you write a test with terratest for the current file?
+        3. Showcase that the Copilot created the tests.
